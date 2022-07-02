@@ -1,0 +1,41 @@
+<script>
+   let calendar = parseInt(prompt(" Type of The Calendar 1:Gregorian  or 2:Iulian  "))
+   let day = parseInt(prompt( "Day of the week?") ) //1..7
+
+            if( calendar == 1){
+
+                        switch( day ) {  // === identic
+                                
+                            case 1: document.write(" MO "); break    //"1"===1 strict compare
+                            case 2: document.write(" Tu "); break    
+                            case 3: document.write(" Wd "); break    
+                            case 4: document.write(" Th "); break    
+                            case 5: document.write(" Fr "); break    
+                            case 6: document.write(" Sa "); break    
+                            case 7: document.write(" Su "); break    
+                        
+                            default: document.write(" Are you drunk?  :D "); break  
+
+                        }
+
+            } else if (calendar == 2) {
+
+                        switch (day) {  // === identic
+                                case 1: document.write(" Su "); break
+                                case 2: document.write(" MO "); break    
+                                case 3: document.write(" Tu "); break
+                                case 4: document.write(" Wd "); break
+                                case 5: document.write(" Th "); break
+                                case 6: document.write(" Fr "); break
+                                case 7: document.write(" Sa "); break
+                                
+
+                                default: document.write(" Are you drunk?  :D "); break
+
+                            }} else {
+                                document.write(" Are you drunk?  :D ")
+
+                            }
+
+
+</script>
